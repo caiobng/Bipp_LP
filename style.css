@@ -5,666 +5,140 @@
     scroll-behavior: smooth;
 }
 
-#navbar{
-    display:flex;
-    align-items:center;
-    justify-content: space-around;
-    position: fixed;
-    width: 100%;
-    z-index: 999;
+.container{
+    padding: 0px 20px;
+    max-width: 1180px;
+    width:100%; 
 }
 
-#navbar.rolagem{
-    background-image:url(../Treino/Retângulo\ 111.png)
-}
-
-.menuPrinc ul{
-    display: flex;
-    gap:70px;
-    list-style: none;
-    font-size: 20px;
-    font-family: 'Kumbh Sans', sans-serif;   
-    font-weight: 900;
-}
-
-.menuPrinc ul li{
-    user-select: none;
-    cursor: pointer;
-}
-
-.menuPrinc ul li a:hover{
-    color: rgb(0, 0, 0);
-}
-
-.menuPrinc ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-family: 'Kumbh Sans', sans-serif;   
-}
-
-.mainpage{
-    display: flex;
-    justify-content: flex-start;
-    background-image: url(../Bipp/imgs/backgroundbipp.png);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    gap:100px;
-}
-
-.logo1{
-    margin:20px 0 20px 20px;
-}
-
-.botao{
-    display: flex;
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 20px;
-    background-color: #E3D400;
-    border-radius: 54px;
-    user-select: none;
-    cursor: pointer;
-    text-decoration:none;
-    color:black;
-    padding:10px;
+.btn{
     max-width: 176px;
-    justify-content: center;
-    font-weight: bolder;
-}
-
-.botao:hover{
-    background: #ffee00;
-}
-
-.text{
-    max-width: 50%;
-    margin-top: 80px;
-}
-
-.text h1{
-    margin: 100px 0 0 60px;
-    font-size: 56px;
-    color:rgb(255, 255, 255);
-    font-family: 'Kumbh Sans', sans-serif; 
+    width:100%;
+    min-height: 48px;
+    background-color: #E3D400;
+    border-radius: 24px;
+    color:white;
     font-weight: 700;
 }
 
-.text p{
-    margin-left:60px;
-    font-size: 16px;
-    color:rgb(255, 255, 255);
-    font-family: 'Kumbh Sans', sans-serif;
-    margin-top: 60px;
+
+.textBanner{
+    margin-top: 120px !important; 
+    max-width: 420px;
+    min-height: 360px;
+    color: white;   
     font-weight: 700;
-}
+  }
 
-.formulario{
-    display: flex;
-    flex-direction: column;
-    margin-top: 150px;
-    padding: 20px;
-    align-items: center;
-    background-color: white;
-    border-radius: 10px;
-    justify-content: center;
-    margin-bottom: 60px;
-    width: 300px;
-}
+  .texto1{
+    margin-bottom: 16px;
 
-#tel{
-    display: block;
-    height: 22px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 4px 10px;
-}
-
-.pag2{
-    height: 100vh;
-}
-
-.styleform{
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center;
-}
-
-.form-content{
-    display: flex;
-    flex-direction: column;
-    gap:15px;
-}
-
-.form-content input{
-    padding:10px;
-}
+    width: 100%;
+  }
 
 .checkbox{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    gap: 16px;
 }
 
-.textF h2{
-    font-size: 32px;
-    font-family: 'Kumbh Sans', sans-serif; 
-    font-weight: 900;  
-}
-
-.textF p{
-    font-size: 18px;
-    font-family: 'Kumbh Sans', sans-serif;  
-    font-weight: bolder
-}
-
-.botao2 {
-    color: white;
-    display: flex;
-    font-family: 'Kumbh Sans', sans-serif;
-    background-color: #18A6AC;
-    border: 1px solid white;
-    border-radius: 54px;
-    width: 150px;
-    padding: 15px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    user-select: none;
-    cursor: pointer;
-    text-decoration: none;
-    margin-top:20px;
-    font-weight: bolder;
-}
-
-.botao2:hover{
-    background-color: #16c8ce;
-}
-
-.botaowpp {
-    color: black;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    position: fixed;
-    right: 0;
-    bottom: 50px;
-}
-
-.botaowpp img{
-    user-select: none;
-    cursor: pointer;
-}
-
-.ocurso{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    font-weight: bolder;
-}
-
-.ocurso h2{
-    font-family: 'Kumbh Sans', sans-serif; 
-    font-weight: 700;  
-    font-size: 32px;
-    border-bottom: 2px solid rgb(170, 170, 9);
-    padding-bottom: 8px;
-}
-
-.mainpage2{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 60px;
-    max-width: 100%;
+.form-control{
+    border-radius: 4px;
+    max-width: 350px;
     width: 100%;
 }
 
-.modulo{
-    display: flex;
-    flex-direction: column;
-    max-width: 270px;
-    width: 100%;
-    align-items: center;
-    font-family: 'Kumbh Sans', sans-serif; 
-    font-weight: 700;  
-    font-size: 24px;
-    max-height: 400px;
-    height: 80%;
-    padding: 15px;
-    
-}
-
-.modulo p{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Kumbh Sans', sans-serif;   
-    font-size: 16px;
-    padding:10px;
-}
-
-.title-wrapper{
-    display: flex;
-    gap:5px;
-    align-items: center;
-    border-bottom: 2px solid #5b5b5bdd;
-    font-size: 20px;
-    padding-bottom: 8px;
-}
-
-.mainpage2 fieldset{
+.formlimit{
     border-radius: 8px;
+    max-width: 418px;
+    min-height: 486px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+ 
+#pag1{
+    background-image: url(./imgs/backgroundbipp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 75px;
 }
 
-.number{
-    display: flex;
-    background-color: black;
-    color: white;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Kumbh Sans', sans-serif;   
-}
-
-.botao3{
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 60px;
-}
-
-.botaoM{
-    display: flex;
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 20px;
-    background-color: #F95A10;
-    border-radius: 54px;
-    user-select: none;
-    cursor: pointer;
-    text-decoration:none;
-    color:rgb(255, 255, 255);
-    padding:10px;
-    max-width: 176px;
-    font-weight: bolder;
-}
-
-.pag3{
-    height: 70vh;
-}
-
-.topo3{
-    display: flex;
-    justify-content: center;
-    margin-top: 120px;
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 32px;
-    font-weight: bolder;
-}
-
-.topo3 h2{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 32px;
-    border-bottom: 2px solid rgb(170, 170, 9);
-    padding-bottom: 8px;
-}
-
-.mainpage3{
-display: flex;
-gap: 50px;
-margin-left: 20px;
-margin-right: 20px;
-align-items: flex-start;
-margin-top: 50px;
-}
-
-.fotos{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.fotos-pag3{
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    gap:20px;
-}
-
-.ajuste{
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    align-items: center;
-}
-
-.ajuste2{
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    align-items: center;
-}
-
-.fotos-pag3 img{
-    width: 80px;
-}
-
-.fotos-pag3 h3{
-    margin:10px;
-}
-
-.fotos-pag3 p{
-    margin: 10px;
-}
-
-
-.pag4{
-    background-image: url(imgs/backgroundbipp2.png);
-    background-color: rgba(8, 5, 5, 0.712);
-    
-}
-
-.professores{
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    padding:30px;
-    font-weight: bolder;
-}
-
-.professores h2{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 32px;
-    color:white;
-    border-bottom: 2px solid rgb(170, 170, 9);
-    padding-bottom: 8px;
-}
-
-.topo{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 80px;
-}
-
-.mainpage4{
-    display: flex;
-    justify-content: space-between;
-}
-
-.topo4{
-    display: flex;
-    justify-content: space-around;
-    margin: 80px 100px 50px -50px;
-    gap:80px;
-}
-
-.prof1{
-    display: flex;
-    gap:40px;
-    margin-left: 100px;
-    position: relative;
-    z-index: 0;
-}
-
-.prof1::before{
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    content: "";
-    background-color: rgb(232, 247, 28);
-    left:-10px;
-    top: -10px;
-    z-index: -1;
-    border-radius:30px;
-}
-
-.textprof1{
-    display: flex;
-    flex-direction: column;
+.navbar {
+    position:fixed;
     width: 100%;
-    color: white;
 }
 
-.textprof1 h3{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 26px;
-}
-
-
-.textprof1 h4{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 16px;
-    margin-top:5px;
-    border-bottom: 2px solid rgb(0, 153, 255);
-    padding-bottom: 8px;
-    max-width: 140px;
-}
-
-
-.textprof1 p{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 16px;
-    margin-top:15px;
-}
-
-
-.prof2{
-    display: flex;
-    gap:40px;
-    position: relative;
-    z-index: 0;
-}
-
-.prof2::before{
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    content: "";
-    background-color: rgba(0, 217, 255, 0.767);
-    right: 295px;
-    top:-10px;
-    z-index: -1;
-    border-radius:30px;
-}
-
-.textprof2{
-    display: flex;
-    flex-direction: column;
+.col{
+    max-width: 376px;
     width: 100%;
-    color:white
 }
 
-
-.textprof2 h3{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 26px;
+.cursos{
+    gap: 16px;
 }
 
-
-.textprof2 h4{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 16px;
-    margin-top:5px;
-    border-bottom: 2px solid rgb(0, 153, 255);
-    padding-bottom: 8px;
-    max-width: 140px;
-}
-
-
-.textprof2 p{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 16px;
-    margin-top:15px;
-}
-
-
-.low4{
-    display: flex;
-    justify-content: space-around;
-    margin: 50px 100px 50px -50px;
-    gap:80px;
-}
-
-.prof3{
-    display: flex;
-    gap:40px;
-    margin-left: 100px;
-    margin-bottom: 40px;
-    position: relative;
-    z-index: 0;
-}
-
-.prof3::before{
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    content: "";
-    background-color: white;
-    left: 115px;
-    bottom:-10px;
-    z-index: -1;
-    border-radius:30px;
-}
-
-
-.textprof3{
-    display: flex;
-    flex-direction: column;
+.border-primary{
+    max-width: 312px;
     width: 100%;
-    color: white;
 }
 
-
-.textprof3 h3{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 26px;
+.navbar-toggler{
+    display: none;
 }
 
-.textprof3 h4{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 16px;
-    margin-top:5px;
-    border-bottom: 2px solid rgb(0, 153, 255);
-    padding-bottom: 8px;
-    max-width: 140px;
-}
-
-
-.textprof3 p{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 16px;
-    margin-top:15px;
-}
-
-
-.prof4{
+.menu-icons{
+    list-style: none;
     display: flex;
-    gap:40px;
-    margin-bottom: 40px;
-    position: relative;
-    z-index: 0;
-}
-
-.prof4::before{
-position: absolute;
-width: 150px;
-height: 150px;
-content: "";
-background-color: rgb(243, 2, 122);
-left: -10px;
-bottom: -10px;
-z-index: -1;
-border-radius:30px;
-}
-
-
-.textprof4{
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 0px;
     width: 100%;
-    color:white
+    justify-content: space-evenly;
+}
+.dropdown-toggle::after{
+    display: none;
 }
 
-.textprof4 h3{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 26px;
+.navbar-toggler-icon-close{
+    display: none;
 }
 
-.textprof4 h4{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 16px;
-    margin-top:5px;
-    border-bottom: 2px solid rgb(0, 153, 255);
-    padding-bottom: 8px;
-    max-width: 140px;
-}
-
-
-.textprof4 p{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 16px;
-    margin-top:15px;
+.navbar-collapse { 
+    overflow: hidden; 
+    transition: 0.5s ease; 
 }
 
 
-.topo5{
-    display: flex;
-    justify-content: center;
-    font-weight: bolder;
+.navbar-collapse.show {
+    transition: 0.5s ease; 
+    margin-bottom: 15px;
 }
 
-.topo5 h2{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 32px;
-    border-bottom: 2px solid rgb(170, 170, 9);
-    padding-bottom: 8px;
+.navbar.expanded {
+    background-image: url('./imgs/esse.png');
+    background-size: cover;
+    transition: 0.6 ease;
 }
 
-.mainpage5{
-    display: flex;
-    justify-content: center;
-    margin: 100px;
-    gap:60px;
+@media (max-width:767px){
+    .rowbanner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+    }
+    .bannertopo {
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .textBanner{
+        margin-top: 0px !important;
+    }
+    .formlimit {
+        margin-top: 0px !important;
+    }
+    .navbar-toggler{
+        display: block;
+    }
 }
-
-.carousel{
-    display: flex;
-    gap: 30px;
-}
-
-.pag6{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #2E2E2D;
-    max-height: 100px;
-}
-
-.logo2{
-    margin-left: 60px;
-}
-
-.politica{
-    display: flex;
-    margin-right: 100px;
-    align-items: center;
-    gap:50px;
-    color:white;
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 16px;
-    font-weight: bolder;
-}
-
-.politica a:first-child{
-    user-select: none;
-    cursor: pointer;
-    color:#FFF;
-}
-
