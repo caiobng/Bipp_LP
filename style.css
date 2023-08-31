@@ -6,9 +6,22 @@
 }
 
 .container{
-    padding: 0px 20px;
+    padding: 0px 15px;
     max-width: 1180px;
     width:100%; 
+}
+
+
+#navbar.rolagem {
+    background-image: url(./imgs/esse.png);
+}
+
+#navbar.rolagem.navbarmenu {
+    padding: 20px;
+}
+
+.max-375{
+    max-width: 375px;
 }
 
 .btn{
@@ -20,7 +33,6 @@
     color:white;
     font-weight: 700;
 }
-
 
 .textBanner{
     margin-top: 120px !important; 
@@ -72,13 +84,9 @@
     width: 100%;
 }
 
-.cursos{
-    gap: 16px;
-}
-
-.border-primary{
-    max-width: 312px;
-    width: 100%;
+.border{
+    border: 1px solid #C7C7C7;
+    border-radius: 4px;
 }
 
 .navbar-toggler{
@@ -116,6 +124,7 @@
     background-size: cover;
     transition: 0.6 ease;
 }
+
 
 @media (max-width:767px){
     .rowbanner{

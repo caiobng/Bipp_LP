@@ -37,3 +37,10 @@ window.addEventListener("scroll",function(){
             $('.navbar').toggleClass('expanded');
         });
     });
+
+
+    window.addEventListener("scroll",function(){
+        let navbarmenu = document.querySelector('#navbar')
+        navbarmenu.classList.toggle('rolagem',window.scrollY > 40)
+    })
+    
