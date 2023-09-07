@@ -1,3 +1,4 @@
+//Meu Arquivo JS, adicione se precisar algo aqui
 const handlePhone = (event) => {
     let tel = event.target
     tel.value = phoneMask(tel.value)
@@ -44,3 +45,27 @@ window.addEventListener("scroll",function(){
         navbarmenu.classList.toggle('rolagem',window.scrollY > 40)
     })
     
+    $(document).ready(function() {
+        $('.owl-carousel').owlCarousel({
+          items: 6, 
+          loop: true, 
+          margin: 20, 
+          autoplay: true, 
+          autoplayTimeout: 4000, 
+          autoplayHoverPause: true, 
+          responsive: {
+            0: {
+              items: 3
+            },
+            576: {
+                items: 4
+              },
+            768: {
+              items: 5
+            },
+            992: {
+              items: 6 
+            }
+          }
+        });
+      });

@@ -131,6 +131,40 @@
     min-height: 40px;
 }
 
+.owl-carousel{
+    max-width: 1180px;
+    min-height: fit-content;
+}
+
+.owl-carousel button.owl-dot {
+    display: none !important;
+}
+
+.footer-h{
+    min-height: 60px;
+}
+
+.footer-m{
+    margin: auto 0px auto 0px !important;
+}
+
+.botaowpp {
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: fixed;
+    right: 10px;
+    bottom: 85px;
+    z-index: 997;
+}
+
+.botaowpp img{  
+    user-select: none;
+    cursor: pointer;
+    max-width: 100px;
+}
+
 @media (max-width:767px){
     #buttonnav{
         margin-top: 10px;
@@ -168,6 +202,22 @@
     .text-prof{
         text-align: center !important;
         margin-top: 15px;
+    }
+    .footer-m{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .img-footer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text{
+        text-align: center;
     }
 }
 
