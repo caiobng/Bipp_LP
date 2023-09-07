@@ -66,7 +66,7 @@
     margin-bottom: 100px;
 }
  
-#pag1{
+#sobre{
     background-image: url(./imgs/backgroundbipp.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -125,8 +125,16 @@
     transition: 0.6 ease;
 }
 
+.diferenciais{
+    max-width: 40px;
+    width: 100%;
+    min-height: 40px;
+}
 
 @media (max-width:767px){
+    #buttonnav{
+        margin-top: 10px;
+    }
     .rowbanner{
         display: flex;
         flex-direction: column;
@@ -151,3 +159,15 @@
         display: block;
     }
 }
+
+@media (max-width: 576px) {
+    .icon {
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-prof{
+        text-align: center !important;
+        margin-top: 15px;
+    }
+}
+
