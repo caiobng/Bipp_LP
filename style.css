@@ -112,6 +112,25 @@
     width: 100%;
 }
 
+.prof1{
+    position: relative;
+    z-index: 2;
+}
+
+.before-prof1::before {
+    content: "";
+    background-color: #E3D400;
+    border-radius: 32px;
+    max-width: 150px;
+    width: 100%;
+    height: 150px;
+    z-index: 1; 
+    display: block;
+    position: absolute; 
+    top: -10px;
+    left: -10px;
+  }
+
 .formlimit{
     border-radius: 8px;
     max-width: 418px;
@@ -131,6 +150,7 @@
 .navbar {
     position:fixed;
     width: 100%;
+    z-index: 999;
 }
 
 .col{
