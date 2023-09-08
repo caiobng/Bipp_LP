@@ -55,7 +55,7 @@ window.addEventListener("scroll",function(){
           autoplayHoverPause: true, 
           responsive: {
             0: {
-              items: 3
+              items: 2
             },
             576: {
                 items: 4
