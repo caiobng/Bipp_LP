@@ -33,6 +33,9 @@
 .hr-modulo{
     border: 1px solid #2E2E2D;
     opacity: 100%;
+    max-width: 312px;
+    width: 100%;
+    margin: 14px auto 24px auto;
 }
 
 .hr-professores{
@@ -200,6 +203,23 @@
     justify-content: center;
     align-items: center;
 }
+
+
+.circle-counter::before {
+    content: attr(data-counter); 
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 
 #professores{
     background-color: #2E2E2D;
