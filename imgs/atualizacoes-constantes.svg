@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68.889" height="72" viewBox="0 0 68.889 72">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_39" data-name="Retângulo 39" width="68.889" height="72" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="atualizacoes-constantes" clip-path="url(#clip-path)">
+    <path id="Caminho_63" data-name="Caminho 63" d="M48.366,94.532H45.536V73.84a1.415,1.415,0,0,1,.414-1A21.016,21.016,0,1,0,10.056,58c0,.32.012.636.025.954a1.414,1.414,0,0,1-.188.768L3.867,70.157h2.76a1.416,1.416,0,0,1,1.415,1.415v8.856a4.638,4.638,0,0,0,4.632,4.634h9.579a1.415,1.415,0,0,1,1.415,1.415v8.054H20.838V87.893H12.675a7.472,7.472,0,0,1-7.463-7.465v-7.44h-3.8A1.415,1.415,0,0,1,.19,70.865L7.237,58.657c-.007-.213-.012-.433-.012-.661A23.847,23.847,0,1,1,48.366,74.416Z" transform="translate(0 -22.532)" fill="#2e2e2d"/>
+    <path id="Caminho_64" data-name="Caminho 64" d="M89.578,4.161A22.286,22.286,0,0,0,72.134,40.325l-1.309,4.883L75.709,43.9A22.29,22.29,0,1,0,89.578,4.161" transform="translate(-44.397 -2.746)" fill="#fff"/>
+    <path id="Caminho_65" data-name="Caminho 65" d="M86.833,47.416A23.433,23.433,0,0,1,72.653,42.7l-6.575,1.761L67.84,37.89a23.438,23.438,0,0,1-4.715-14.182A23.708,23.708,0,1,1,86.833,47.416M73.286,39.6l.559.445a20.649,20.649,0,0,0,12.988,4.538A20.877,20.877,0,1,0,65.956,23.708,20.651,20.651,0,0,0,70.5,36.7l.445.559-.859,3.2Z" transform="translate(-41.651)" fill="#2e2e2d"/>
+    <path id="Caminho_66" data-name="Caminho 66" d="M97.814,52.736a18.046,18.046,0,1,1,18.046-18.046A18.067,18.067,0,0,1,97.814,52.736" transform="translate(-52.633 -10.981)" fill="#18a6ac"/>
+    <path id="Caminho_67" data-name="Caminho 67" d="M108.659,46.556,101.3,39.7l7.356-6.854,1.93,2.071L105.455,39.7l5.134,4.787Z" transform="translate(-66.842 -21.671)" fill="#fff"/>
+    <rect id="Retângulo_37" data-name="Retângulo 37" width="15.531" height="2.831" transform="translate(37.203 16.614)" fill="#fff"/>
+    <path id="Caminho_68" data-name="Caminho 68" d="M135.753,77.763l-1.93-2.071,5.134-4.783-5.134-4.787,1.93-2.07,7.356,6.858Z" transform="translate(-88.3 -42.262)" fill="#fff"/>
+    <rect id="Retângulo_38" data-name="Retângulo 38" width="15.531" height="2.831" transform="translate(36.537 27.229)" fill="#fff"/>
+  </g>
+</svg>

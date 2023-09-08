@@ -11,6 +11,37 @@
     width:100%; 
 }
 
+.gray-text {
+    color: #989898; 
+  
+  .form-check-label {
+    color: #2E2E2D; 
+  }
+}  
+
+.gray-text2{
+    color: #C7C7C7;
+}
+
+.hr-linha-amarela{
+    border: 3px solid #E3D400;
+    opacity: 100%;
+    max-width: 72px;    
+    width: 100%;
+}
+
+.hr-modulo{
+    border: 1px solid #2E2E2D;
+    opacity: 100%;
+}
+
+.hr-professores{
+    border: 3px solid #18A6AC;
+    opacity: 100%;
+    max-width: 90px;
+    margin: 0px;
+    width: 100%;
+}
 
 #navbar.rolagem {
     background-image: url(./imgs/esse.png);
@@ -29,6 +60,26 @@
     width:100%;
     min-height: 48px;
     background-color: #E3D400;
+    border-radius: 24px;
+    color:black;
+    font-weight: 700;
+}
+
+.btn-outline{
+    max-width: 394px;
+    min-height: 48px;
+    width:100%;
+    background-color: #18A6AC;
+    border-radius: 24px;
+    color:white;
+    font-weight: 700;
+}
+
+.btn-outline-orange{
+    max-width: 274px;
+    min-height: 48px;
+    width:100%;
+    background-color: #F95A10;
     border-radius: 24px;
     color:white;
     font-weight: 700;
@@ -85,8 +136,10 @@
 }
 
 .border{
-    border: 1px solid #C7C7C7;
     border-radius: 4px;
+    max-width: 375px;
+    width: 100%;
+    min-height: 300px;
 }
 
 .navbar-toggler{
@@ -131,6 +184,28 @@
     min-height: 40px;
 }
 
+.modulos{
+    content: counter(cont);
+    background-color: #2E2E2D;
+    color: #fff;
+    background-repeat: no-repeat;
+    max-width: 24px;
+    width: 100%;
+    height: 24px;
+    position: absolute;
+    top: 25px;
+    left: 38px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#professores{
+    background-color: #2E2E2D;
+    background-image: url("imgs/backgroundbipp2.png");
+}
+
 .owl-carousel{
     max-width: 1180px;
     min-height: fit-content;
@@ -142,6 +217,7 @@
 
 .footer-h{
     min-height: 60px;
+    background-color: #2E2E2D;
 }
 
 .footer-m{

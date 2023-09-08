@@ -46,26 +46,34 @@ window.addEventListener("scroll",function(){
     })
     
     $(document).ready(function() {
-        $('.owl-carousel').owlCarousel({
-          items: 6, 
-          loop: true, 
-          margin: 20, 
-          autoplay: true, 
-          autoplayTimeout: 4000, 
-          autoplayHoverPause: true, 
-          responsive: {
-            0: {
-              items: 2
-            },
-            576: {
-                items: 4
-              },
-            768: {
-              items: 5
-            },
-            992: {
-              items: 6 
-            }
+      $('.owl-carousel').owlCarousel({
+        items: 6,
+        loop: true,
+        margin: 20,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: false,
+        slideBy: 6, 
+        rtl:true,
+        mouseDrag: false,
+        responsive: {
+          0: {
+            items: 2,
+            slideBy: 2 
+          },
+          576: {
+            items: 4,
+            slideBy: 4 
+          },
+          768: {
+            items: 5,
+            slideBy: 5 
+          },
+          992: {
+            items: 6,
+            slideBy: 6 
           }
-        });
+        }
       });
+    });
+    

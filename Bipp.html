@@ -25,16 +25,16 @@
               <div class="collapse navbar-collapse justify-content-between text-center mt-3" id="navbarNavDropdown">
                   <ul class="navbar-nav menu-icons">
                       <li class="nav-item">
-                          <a class="nav-link" href="#">Sobre</a>
+                          <a class="nav-link text-white" href="#">Sobre</a>
+                      </li>
+                      <li class="nav-item ">
+                          <a class="nav-link text-white" href="#">O Curso</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="#">O Curso</a>
+                          <a class="nav-link text-white" href="#">Diferenciais</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="#">Diferenciais</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Produto</a>
+                          <a class="nav-link text-white" href="#">Produto</a>
                       </li>
                   </ul>
                   <button class="btn btn-outline-warning" id="buttonnav" type="submit">Inscreva-se</button>
@@ -69,11 +69,14 @@
                   minlength="10" onkeyup="handlePhone(event)" placeholder="Telefone" style="width: 100%; max-width: 394px"/>
                   <div class="checkbox form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1" required title="Você deve aceitar os termos e condições para continuar.">
-                    <label class="form-check-label" for="exampleCheck1">Li e aceito os termos e condições da Política de Privacidade e Contrato de Prestação de Serviço.</label>
+                    <label class="form-check-label" for="exampleCheck1">
+                      <span class="gray-text">Li e aceito os termos e condições da</span>
+                      Política de Privacidade e Contrato de Prestação de Serviço.
+                    </label>
+                    
                 </div>                
                   <div class="w-100 align-items-center justify-content-center text-center" style="max-width: 444px;">
-                    <button type="submit" class="btn" style="max-width: 394px;
-                    min-height: 48px;">Inscreva-se</button>  
+                    <button type="submit" class="btn btn-outline" >Inscreva-se</button>  
                   </div>
                 </div>
               </form>
@@ -83,129 +86,226 @@
       </section>
       <section id="curso" class="w-100 mt-5">
         <div class="container p-2">
-          <div class="text-center container mb-5">
-            <h2>O Curso</h2>
+          <div class="text-center d-flex flex-column align-items-center container mb-5">
+            <h2>O Curso</h2><hr class="hr-linha-amarela">
           </div>
           <div class="row mx-auto d-flex mb-5">
-            <div class="col-lg-4 col-md-6 col-sm-12 p-2">
-              <div class="border d-flex flex-column p-4 text-center">
-                <h3 class="mb-4">Nome do Módulo</h3>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="border p-2 text-center">
+                <h3>Nome do Módulo</h3><hr class="hr-modulo">
                 <p>Suspendisse consequat tincidunt luctus. Sed consequat libero vitae nisl consequat placerat. Curabitur in tellus porta, fermentum lacus eget, egestas libero. Nullam scelerisque nisl vitae sollicitudin lacinia. Nulla aliquet aliquam eros, in consequat orci consequat quis. Ut ac sapien non sem gravida accumsan a a ipsum.</p>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 p-2">
-              <div class="border p-4 text-center">
-                <h3 class="mb-4">Nome do Módulo</h3>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="border p-2  text-center">
+                <h3>Nome do Módulo</h3><hr class="hr-modulo">
                 <p>Suspendisse consequat tincidunt luctus. Sed consequat libero vitae nisl consequat placerat. Curabitur in tellus porta, fermentum lacus eget, egestas libero. Nullam scelerisque nisl vitae sollicitudin lacinia. Nulla aliquet aliquam eros, in consequat orci consequat quis. Ut ac sapien non sem gravida accumsan a a ipsum.</p>
               </div>
             </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 p-2">
-              <div class="border p-4 text-center">
-                <h3 class="mb-4">Nome do Módulo</h3>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <div class="border p-2 text-center">
+                <h3>Nome do Módulo</h3><hr class="hr-modulo">
                 <p>Suspendisse consequat tincidunt luctus. Sed consequat libero vitae nisl consequat placerat. Curabitur in tellus porta, fermentum lacus eget, egestas libero. Nullam scelerisque nisl vitae sollicitudin lacinia. Nulla aliquet aliquam eros, in consequat orci consequat quis. Ut ac sapien non sem gravida accumsan a a ipsum.</p>
               </div>
             </div>
           </div>
             <div class="w-100 text-center">
-            <button type="submit" class="btn" style="max-width: 274px;
-              min-height: 48px;">Inscreva-se</button>  
+            <button type="submit" class="btn btn-outline-orange">Compre Agora</button>  
           </div>
         </div>
       </section>
       <section id="diferenciais" class="w-100 mt-5">
         <div class="container p-2">
-          <div class="text-center container mb-5">
-            <h2>Diferenciais</h2>
+          <div class="text-center d-flex flex-column align-items-center container mb-5">
+            <h2>Diferenciais</h2><hr class="hr-linha-amarela">
           </div>
           <div class="row mx-auto d-flex mb-5 justify-content-around">
-            <div class="col-lg-2 col-md-6 col-sm-12 p-2">
-              <div class="d-flex flex-column p-4 gap-2 text-center align-items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"  class="diferenciais"><style>svg{fill:#00ccff}</style><path d="M0 224.2C0 100.6 100.2 0 224 0h24c95.2 0 181.2 69.3 197.3 160.2c2.3 13 6.8 25.7 15.1 36l42 52.6c6.2 7.8 9.6 17.4 9.6 27.4c0 24.2-19.6 43.8-43.8 43.8H448v64c0 35.3-28.7 64-64 64H320v32c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V407.3c0-16.7-6.9-32.5-17.1-45.8C16.6 322.4 0 274.1 0 224.2zM224 64c-8.8 0-16 7.2-16 16c0 33-39.9 49.5-63.2 26.2c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6C145.5 152.1 129 192 96 192c-8.8 0-16 7.2-16 16s7.2 16 16 16c33 0 49.5 39.9 26.2 63.2c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0C168.1 286.5 208 303 208 336c0 8.8 7.2 16 16 16s16-7.2 16-16c0-33 39.9-49.5 63.2-26.2c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6C302.5 263.9 319 224 352 224c8.8 0 16-7.2 16-16s-7.2-16-16-16c-33 0-49.5-39.9-26.2-63.2c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0C279.9 129.5 240 113 240 80c0-8.8-7.2-16-16-16zm-24 96a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm40 80a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z"/></svg>
+            <div class="col-lg-2 col-md-6 col-sm-6 ">
+              <div class="d-flex flex-column gap-2 text-center align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="76.521" height="72" viewBox="0 0 76.521 72">
+                  <defs>
+                    <clipPath id="clip-path">
+                      <rect id="conteudo-especializado" width="76.521" height="72" fill="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="conteudo-especializado-2" data-name="conteudo-especializado" clip-path="url(#clip-path)">
+                    <path id="Caminho_51" data-name="Caminho 51" d="M96.119,86.2A10.214,10.214,0,1,1,85.9,75.991,10.214,10.214,0,0,1,96.119,86.2" transform="translate(-47.644 -47.833)" fill="#18a6ac"/>
+                    <path id="Caminho_52" data-name="Caminho 52" d="M60.211,70.417,51.9,63.38l1.992-2.354,6.149,5.2,5.283-5.282-5.777-6.827.659-.969a26.274,26.274,0,0,0,3.833-8.667L64.3,43.4l9.141-.762V35.171l-8.914-.743L64.3,33.278a26.318,26.318,0,0,0-3.415-8.845l-.581-.95,5.923-7L60.949,11.2l-6.826,5.777-.969-.659a26.3,26.3,0,0,0-8.668-3.834l-1.083-.26-.764-9.141H35.171L34.428,12l-1.151.219a26.266,26.266,0,0,0-8.843,3.413l-.95.582-7-5.925L11.2,15.573,16.979,22.4l-.659.969a26.277,26.277,0,0,0-3.834,8.667l-.26,1.084-9.14.762,0,7.469L12,42.093l.219,1.151a26.251,26.251,0,0,0,3.413,8.842l.582.95-5.923,7,5.281,5.282,5.933-5.02L23.5,62.653l-8.1,6.853-9.294-9.3,6.331-7.481a29.267,29.267,0,0,1-3-7.757L0,44.187,0,31.045l9.767-.815a29.277,29.277,0,0,1,3.357-7.608L7.015,15.4l9.3-9.295,7.48,6.331a29.3,29.3,0,0,1,7.757-3L32.334,0H45.476l.816,9.77A29.318,29.318,0,0,1,53.9,13.127l7.222-6.112,9.295,9.295-6.331,7.481a29.345,29.345,0,0,1,3,7.757l9.432.785V45.476l-9.769.814A29.313,29.313,0,0,1,63.4,53.9l6.112,7.223Z" transform="translate(0 -0.001)" fill="#2e2e2d"/>
+                    <path id="Caminho_53" data-name="Caminho 53" d="M46.186,100.981H43.1c0-.554.02-1.111.061-1.655l3.075.227c-.035.469-.052.95-.052,1.428" transform="translate(-27.131 -62.522)" fill="#18a6ac"/>
+                    <path id="Caminho_54" data-name="Caminho 54" d="M47.515,61.886,44.5,61.223a22.174,22.174,0,0,1,.9-3.043l2.885,1.087a19.056,19.056,0,0,0-.777,2.62m37.511-.029a19.048,19.048,0,0,0-.781-2.617l2.884-1.091a22.153,22.153,0,0,1,.907,3.041Zm-35.59-5.073-2.7-1.488a22.522,22.522,0,0,1,1.723-2.662l2.464,1.854a19.435,19.435,0,0,0-1.486,2.3M83.1,56.762a19.256,19.256,0,0,0-1.488-2.291l2.461-1.859a22.39,22.39,0,0,1,1.726,2.66Zm-30.38-4.336-2.178-2.183a22.609,22.609,0,0,1,2.4-2.074l1.849,2.468a19.415,19.415,0,0,0-2.068,1.79m27.094-.016a19.415,19.415,0,0,0-2.069-1.787l1.845-2.471a22.485,22.485,0,0,1,2.4,2.072ZM57.086,49.157l-1.481-2.7a22.314,22.314,0,0,1,2.884-1.32l1.079,2.888a19.125,19.125,0,0,0-2.483,1.136m18.357-.011a19.233,19.233,0,0,0-2.487-1.135l1.076-2.89a22.34,22.34,0,0,1,2.888,1.318Zm-13.254-1.9-.655-3.013a22.192,22.192,0,0,1,3.14-.451l.219,3.076a19.282,19.282,0,0,0-2.7.388m8.144-.006a19.223,19.223,0,0,0-2.7-.384l.215-3.076a22.294,22.294,0,0,1,3.141.446Z" transform="translate(-28.013 -27.56)" fill="#18a6ac"/>
+                    <path id="Caminho_55" data-name="Caminho 55" d="M158.085,100.981H155c0-.478-.017-.959-.052-1.428l3.075-.227c.04.544.061,1.1.061,1.655" transform="translate(-97.534 -62.522)" fill="#18a6ac"/>
+                    <path id="Caminho_56" data-name="Caminho 56" d="M74.3,60.149A13.971,13.971,0,0,1,88.263,74.082c0,.071-.233,7.173-6.182,14.836l-.014.018-.014.018a10.383,10.383,0,0,0-1.722,3.935H68.26a10.3,10.3,0,0,0-1.7-3.93l-.016-.021-.016-.021c-5.954-7.663-6.179-14.762-6.18-14.809A13.975,13.975,0,0,1,74.3,60.149m0-3.084A17.038,17.038,0,0,0,57.259,74.108c0,.557.4,8.428,6.829,16.7a10.216,10.216,0,0,1,1.5,5.164h17.4a10.3,10.3,0,0,1,1.527-5.164c6.419-8.268,6.831-16.144,6.831-16.7A17.039,17.039,0,0,0,74.3,57.065" transform="translate(-36.042 -35.92)" fill="#2e2e2d"/>
+                    <rect id="Retângulo_27" data-name="Retângulo 27" width="3.083" height="18.836" transform="matrix(0.994, -0.105, 0.105, 0.994, 32.098, 41.436)" fill="#2e2e2d"/>
+                    <rect id="Retângulo_28" data-name="Retângulo 28" width="18.836" height="3.083" transform="translate(39.382 59.845) rotate(-83.978)" fill="#2e2e2d"/>
+                    <rect id="Retângulo_29" data-name="Retângulo 29" width="22.164" height="3.084" transform="translate(27.179 58.712)" fill="#2e2e2d"/>
+                    <rect id="Retângulo_30" data-name="Retângulo 30" width="22.164" height="3.084" transform="translate(27.179 63.814)" fill="#2e2e2d"/>
+                    <rect id="Retângulo_31" data-name="Retângulo 31" width="14.494" height="3.084" transform="translate(31.014 68.916)" fill="#2e2e2d"/>
+                    <rect id="Retângulo_32" data-name="Retângulo 32" width="3.084" height="5.317" transform="translate(29.006 60.484)" fill="#2e2e2d"/>
+                  </g>
+                </svg>                
                 <h4>
-                  Lorem ipsum 
+                  Conteúdo especializado 
                 </h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="text-start">Aulas desenvolvidas por profissionais renomados, como Dr. Luiz Dieckmann, Prof. Elie Cheniaux e Prof. Eduardo Trachtemberg, garantindo qualidade e relevância.</p>
               </div>
             </div>
-            <div class="col-lg-2 col-md-6 col-sm-12 p-2">
-              <div class="d-flex flex-column p-4 gap-2 text-center align-items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"  class="diferenciais"><style>svg{fill:#00f5f1}</style><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>
+            <div class="col-lg-2 col-md-6 col-sm-6 ">
+              <div class="d-flex flex-column gap-2 text-center align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+                  <defs>
+                    <clipPath id="clip-path">
+                      <rect id="Retângulo_36" data-name="Retângulo 36" width="72" height="72" fill="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="flexibilidade" clip-path="url(#clip-path)">
+                    <path id="Caminho_57" data-name="Caminho 57" d="M36,72A36,36,0,0,1,36,0V3.014A32.987,32.987,0,1,0,68.987,36H72A36.041,36.041,0,0,1,36,72" fill="#2e2e2d"/>
+                    <path id="Caminho_58" data-name="Caminho 58" d="M140.48,31.934c-.124-.952-.291-1.907-.5-2.838l2.943-.649c.224,1.017.407,2.06.542,3.1Zm-1.24-5.622c-.287-.912-.618-1.823-.985-2.708l2.784-1.153c.4.966.762,1.96,1.075,2.956Zm-2.2-5.319c-.442-.848-.927-1.688-1.443-2.5l2.541-1.62c.562.882,1.091,1.8,1.574,2.723Zm-3.1-4.856c-.583-.76-1.206-1.5-1.853-2.208l2.222-2.036c.705.771,1.386,1.581,2.022,2.409Zm-3.891-4.248c-.7-.647-1.448-1.272-2.206-1.855l1.837-2.388c.828.637,1.637,1.318,2.406,2.024Zm-4.566-3.512c-.806-.515-1.645-1-2.493-1.445l1.4-2.67c.925.484,1.841,1.014,2.721,1.577Zm-5.1-2.666c-.882-.367-1.793-.7-2.706-.987l.906-2.873c1,.315,1.992.677,2.956,1.078Zm-5.488-1.733c-.933-.206-1.888-.374-2.838-.5l.393-2.987c1.037.136,2.079.32,3.1.545Z" transform="translate(-71.481 -0.314)" fill="#18a6ac"/>
+                    <path id="Caminho_59" data-name="Caminho 59" d="M19,48.286a29.119,29.119,0,1,1,29.12,29.12A29.119,29.119,0,0,1,19,48.286" transform="translate(-12.122 -12.226)" fill="#18a6ac"/>
+                    <path id="Caminho_60" data-name="Caminho 60" d="M90.922,95.912a4.825,4.825,0,1,1,4.825-4.826,4.831,4.831,0,0,1-4.825,4.826m0-6.638a1.812,1.812,0,1,0,1.812,1.812,1.814,1.814,0,0,0-1.812-1.812" transform="translate(-54.923 -55.027)" fill="#2e2e2d"/>
+                    <rect id="Retângulo_34" data-name="Retângulo 34" width="3.013" height="16.275" transform="translate(34.493 16.466)" fill="#2e2e2d"/>
+                    <rect id="Retângulo_35" data-name="Retângulo 35" width="14.177" height="3.013" transform="translate(37.783 34.553)" fill="#2e2e2d"/>
+                    <path id="Caminho_61" data-name="Caminho 61" d="M82.226,43.022l-2.1-2.165L87.2,34.012l6.117,6.931-2.259,1.994-4.028-4.565Z" transform="translate(-51.117 -21.697)" fill="#2e2e2d"/>
+                    <path id="Caminho_62" data-name="Caminho 62" d="M127.843,94.678l-1.994-2.259,4.565-4.029-4.65-4.8,2.165-2.1,6.845,7.071Z" transform="translate(-80.227 -51.984)" fill="#2e2e2d"/>
+                  </g>
+                </svg>                
                 <h4>
-                  Lorem ipsum 
+                  Flexibilidade 
                 </h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="text-start">Assista às aulas onde e quando quiser, seja pelo celular, computador ou tablet.</p>
               </div>
             </div>
-            <div class="col-lg-2 col-md-6 col-sm-12 p-2">
-              <div class="d-flex flex-column p-4  gap-2 text-center align-items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 460 512" class="diferenciais"><style>svg{fill:#00eeff}</style><path d="M220.6 130.3l-67.2 28.2V43.2L98.7 233.5l54.7-24.2v130.3l67.2-209.3zm-83.2-96.7l-1.3 4.7-15.2 52.9C80.6 106.7 52 145.8 52 191.5c0 52.3 34.3 95.9 83.4 105.5v53.6C57.5 340.1 0 272.4 0 191.6c0-80.5 59.8-147.2 137.4-158zm311.4 447.2c-11.2 11.2-23.1 12.3-28.6 10.5-5.4-1.8-27.1-19.9-60.4-44.4-33.3-24.6-33.6-35.7-43-56.7-9.4-20.9-30.4-42.6-57.5-52.4l-9.7-14.7c-24.7 16.9-53 26.9-81.3 28.7l2.1-6.6 15.9-49.5c46.5-11.9 80.9-54 80.9-104.2 0-54.5-38.4-102.1-96-107.1V32.3C254.4 37.4 320 106.8 320 191.6c0 33.6-11.2 64.7-29 90.4l14.6 9.6c9.8 27.1 31.5 48 52.4 57.4s32.2 9.7 56.8 43c24.6 33.2 42.7 54.9 44.5 60.3s.7 17.3-10.5 28.5zm-9.9-17.9c0-4.4-3.6-8-8-8s-8 3.6-8 8 3.6 8 8 8 8-3.6 8-8z" /></svg>
+            <div class="col-lg-2 col-md-6 col-sm-6 ">
+              <div class="d-flex flex-column gap-2 text-center align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68.889" height="72" viewBox="0 0 68.889 72">
+                  <defs>
+                    <clipPath id="clip-path">
+                      <rect id="Retângulo_39" data-name="Retângulo 39" width="68.889" height="72" fill="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="atualizacoes-constantes" clip-path="url(#clip-path)">
+                    <path id="Caminho_63" data-name="Caminho 63" d="M48.366,94.532H45.536V73.84a1.415,1.415,0,0,1,.414-1A21.016,21.016,0,1,0,10.056,58c0,.32.012.636.025.954a1.414,1.414,0,0,1-.188.768L3.867,70.157h2.76a1.416,1.416,0,0,1,1.415,1.415v8.856a4.638,4.638,0,0,0,4.632,4.634h9.579a1.415,1.415,0,0,1,1.415,1.415v8.054H20.838V87.893H12.675a7.472,7.472,0,0,1-7.463-7.465v-7.44h-3.8A1.415,1.415,0,0,1,.19,70.865L7.237,58.657c-.007-.213-.012-.433-.012-.661A23.847,23.847,0,1,1,48.366,74.416Z" transform="translate(0 -22.532)" fill="#2e2e2d"/>
+                    <path id="Caminho_64" data-name="Caminho 64" d="M89.578,4.161A22.286,22.286,0,0,0,72.134,40.325l-1.309,4.883L75.709,43.9A22.29,22.29,0,1,0,89.578,4.161" transform="translate(-44.397 -2.746)" fill="#fff"/>
+                    <path id="Caminho_65" data-name="Caminho 65" d="M86.833,47.416A23.433,23.433,0,0,1,72.653,42.7l-6.575,1.761L67.84,37.89a23.438,23.438,0,0,1-4.715-14.182A23.708,23.708,0,1,1,86.833,47.416M73.286,39.6l.559.445a20.649,20.649,0,0,0,12.988,4.538A20.877,20.877,0,1,0,65.956,23.708,20.651,20.651,0,0,0,70.5,36.7l.445.559-.859,3.2Z" transform="translate(-41.651)" fill="#2e2e2d"/>
+                    <path id="Caminho_66" data-name="Caminho 66" d="M97.814,52.736a18.046,18.046,0,1,1,18.046-18.046A18.067,18.067,0,0,1,97.814,52.736" transform="translate(-52.633 -10.981)" fill="#18a6ac"/>
+                    <path id="Caminho_67" data-name="Caminho 67" d="M108.659,46.556,101.3,39.7l7.356-6.854,1.93,2.071L105.455,39.7l5.134,4.787Z" transform="translate(-66.842 -21.671)" fill="#fff"/>
+                    <rect id="Retângulo_37" data-name="Retângulo 37" width="15.531" height="2.831" transform="translate(37.203 16.614)" fill="#fff"/>
+                    <path id="Caminho_68" data-name="Caminho 68" d="M135.753,77.763l-1.93-2.071,5.134-4.783-5.134-4.787,1.93-2.07,7.356,6.858Z" transform="translate(-88.3 -42.262)" fill="#fff"/>
+                    <rect id="Retângulo_38" data-name="Retângulo 38" width="15.531" height="2.831" transform="translate(36.537 27.229)" fill="#fff"/>
+                  </g>
+                </svg>                
                 <h4>
-                  Lorem ipsum 
+                  Atualizações constantes 
                 </h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="text-start">Novos módulos serão adicionados regularmente, mantendo você sempre atualizado.</p>
               </div>
             </div>
-            <div class="col-lg-2 col-md-6 col-sm-12 p-2">
-              <div class="d-flex flex-column p-4 gap-2 text-center align-items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" class="diferenciais"><style>svg{fill:#00ace6}</style><path d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z" /></svg>
+            <div class="col-lg-2 col-md-6 col-sm-6 ">
+              <div class="d-flex flex-column gap-2 text-center align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66.46" height="72" viewBox="0 0 66.46 72">
+                  <defs>
+                    <clipPath id="clip-path">
+                      <rect id="Retângulo_45" data-name="Retângulo 45" width="66.46" height="72" fill="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="material-didatico-disponivel" clip-path="url(#clip-path)">
+                    <path id="Caminho_69" data-name="Caminho 69" d="M60.306,41.052H54.135V38.4l5.146.005c.119-.009.22-.008.29-.007h.172a4.06,4.06,0,0,0,.126-8.119l-1.444-.043.166-1.436a10.627,10.627,0,0,0,.079-1.241A10.419,10.419,0,0,0,45.4,17.512l-1.465.41-.206-1.508A15.947,15.947,0,0,0,11.986,18.6c0,.046,0,.081,0,.116V19.9l-1.176.134A9.214,9.214,0,0,0,11.867,38.4v2.653A11.868,11.868,0,0,1,9.36,17.585a18.6,18.6,0,0,1,36.747-2.946,12.818,12.818,0,0,1,2.118-.178,13.114,13.114,0,0,1,13.1,13.1c0,.082,0,.164,0,.248a6.716,6.716,0,0,1-1.008,13.22Z" transform="translate(0 -0.001)" fill="#2e2e2d"/>
+                    <path id="Caminho_70" data-name="Caminho 70" d="M57.955,74.946h-4.9A5.254,5.254,0,0,0,47.8,80.095l-.005.663v33.116l.015-1.326c-.006-.1-.015,1.13-.015,1.03a5.257,5.257,0,0,1,5.257-5.257H83.5V74.946H65.471" transform="translate(-32.558 -51.054)" fill="#fff"/>
+                    <path id="Caminho_71" data-name="Caminho 71" d="M44.955,112.076h0l-1.32-.006.005-34.819a6.619,6.619,0,0,1,6.578-6.465h4.9v2.653h-4.9a3.948,3.948,0,0,0-3.925,3.849l-.005.647v27.531a6.547,6.547,0,0,1,3.93-1.305h29.12V73.439h-16.7V70.786H81.989v36.028H50.216a3.935,3.935,0,0,0-3.924,3.715l-.006.527h-.051a1.32,1.32,0,0,1-1.28,1.021" transform="translate(-29.723 -48.22)" fill="#2e2e2d"/>
+                    <rect id="Retângulo_40" data-name="Retângulo 40" width="24.051" height="26.191" transform="translate(23.296 27.484)" fill="#18a6ac"/>
+                    <path id="Caminho_72" data-name="Caminho 72" d="M83.5,179.637H53.051a5.257,5.257,0,1,0,0,10.513H83.5Z" transform="translate(-32.558 -122.37)" fill="#fff"/>
+                    <path id="Caminho_73" data-name="Caminho 73" d="M81.989,188.643H50.217a6.583,6.583,0,0,1,0-13.166H81.989ZM50.217,178.13a3.93,3.93,0,0,0,0,7.86h29.12v-7.86Z" transform="translate(-29.724 -119.536)" fill="#2e2e2d"/>
+                    <path id="Caminho_74" data-name="Caminho 74" d="M80.108,206.572,76.3,204.154l-3.813,2.418v-9.023h7.626Z" transform="translate(-49.375 -134.572)" fill="#18a6ac"/>
+                    <line id="Linha_1" data-name="Linha 1" x2="30.838" transform="translate(20.102 62.823)" fill="#fff"/>
+                    <rect id="Retângulo_41" data-name="Retângulo 41" width="30.838" height="2.653" transform="translate(20.102 61.497)" fill="#2e2e2d"/>
+                    <line id="Linha_2" data-name="Linha 2" y1="32.542" transform="translate(20.102 24.399)" fill="#fff"/>
+                    <rect id="Retângulo_42" data-name="Retângulo 42" width="2.653" height="32.542" transform="translate(18.775 24.399)" fill="#2e2e2d"/>
+                    <path id="Caminho_75" data-name="Caminho 75" d="M82.135,38.2,77.38,33.449,72.626,38.2,70.75,36.323,77.38,29.7l6.631,6.624Z" transform="translate(-48.196 -20.231)" fill="#2e2e2d"/>
+                    <rect id="Retângulo_43" data-name="Retângulo 43" width="2.653" height="17.55" transform="translate(28.006 13.133)" fill="#2e2e2d"/>
+                    <path id="Caminho_76" data-name="Caminho 76" d="M100.979,134.773l-6.631-6.624,1.875-1.877,4.755,4.751,4.754-4.751,1.875,1.877Z" transform="translate(-64.271 -86.018)" fill="#2e2e2d"/>
+                    <rect id="Retângulo_44" data-name="Retângulo 44" width="2.653" height="17.55" transform="translate(35.233 27.54)" fill="#2e2e2d"/>
+                  </g>
+                </svg>                
                 <h4>
-                  Lorem ipsum 
+                  Material didático disponível 
                 </h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="text-start">Tenha acesso aos Power Points utilizados nas aulas para revisão e aprofundamento.</p>
               </div>
             </div>
-            <div class="col-lg-2 col-md-12 col-sm-12 p-2">
-              <div class="d-flex flex-column p-4 gap-2 text-center align-items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" class="diferenciais"><style>svg{fill:#0ca3e4}</style><path d="M0 64C0 28.7 28.7 0 64 0H384c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zM256 448a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM384 64H64V384H384V64z" /></svg>
+            <div class="col-lg-2 col-md-12 col-sm-12 ">
+              <div class="d-flex flex-column gap-2 text-center align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66.506" height="72" viewBox="0 0 66.506 72">
+                  <defs>
+                    <clipPath id="clip-path">
+                      <rect id="Retângulo_52" data-name="Retângulo 52" width="66.506" height="72" fill="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="acesso-exclusivo" clip-path="url(#clip-path)">
+                    <path id="Caminho_77" data-name="Caminho 77" d="M55.27,65.648H31.239a2.374,2.374,0,0,1-2.374-2.375V6.537a2.374,2.374,0,0,1,2.374-2.376H71.152a2.375,2.375,0,0,1,2.375,2.376V40.164" transform="translate(-18.865 -2.72)" fill="#fff"/>
+                    <path id="Caminho_78" data-name="Caminho 78" d="M52.551,64.371H28.52A3.82,3.82,0,0,1,24.7,60.555V3.819A3.821,3.821,0,0,1,28.52,0H68.433a3.821,3.821,0,0,1,3.816,3.818V37.446H69.366V3.819a.935.935,0,0,0-.933-.935H28.52a.934.934,0,0,0-.933.935V60.555a.934.934,0,0,0,.933.934H52.551Z" transform="translate(-16.147 -0.001)" fill="#2e2e2d"/>
+                    <rect id="Retângulo_46" data-name="Retângulo 46" width="37.872" height="49.321" transform="translate(13.394 8.435)" fill="#18a6ac"/>
+                    <line id="Linha_3" data-name="Linha 3" x1="3.591" transform="translate(30.534 5.505)" fill="#fff"/>
+                    <rect id="Retângulo_47" data-name="Retângulo 47" width="3.591" height="2.883" transform="translate(30.534 4.063)" fill="#2e2e2d"/>
+                    <path id="Caminho_79" data-name="Caminho 79" d="M130.653,120.9v-3.651a7.541,7.541,0,0,0,3.042-6.054V98.061l-.141-2.9a2.813,2.813,0,0,0-2.813-2.814c-1.554,0-2.814.557-2.814,2.11v-.7a2.813,2.813,0,1,0-5.626,0V92.347a2.813,2.813,0,0,0-5.626,0V93.93c0-3.809-.025-16.208-.025-16.208a2.91,2.91,0,0,0-5.821,0l-.016,28.435-.058-1.385V98.959a4.3,4.3,0,0,0-4.3-4.3h-1.431c-.062,0,.059,0,0,.009v5.379c.008,0-.011,0,0,0v7.137l8.147,9.683a15.853,15.853,0,0,0,3.411,1.656V120.9" transform="translate(-68.63 -48.895)" fill="#fff"/>
+                    <path id="Caminho_80" data-name="Caminho 80" d="M129.245,118.175h-2.883V113.8l.578-.432a6.071,6.071,0,0,0,2.463-4.9V95.376l-.141-2.935a1.374,1.374,0,0,0-1.372-1.373c-1.368,0-1.373.432-1.373.666v0h-2.883v-.7a1.372,1.372,0,1,0-2.743,0h-2.883V89.627a1.372,1.372,0,0,0-2.743,0V91.21h-2.883c0-3.809-.026-16.2-.026-16.2a1.469,1.469,0,1,0-2.938,0l-.016,28.435-2.881.06-.06-1.445V96.238a2.859,2.859,0,0,0-2.847-2.856v3.826l.171,1.131-.171.053v5.553l7.661,9.106a13.178,13.178,0,0,0,2.8,1.358l1.1.268v3.5h-2.883v-1.343a21.179,21.179,0,0,1-2.741-1.46l-.188-.119L100.735,105V97.436l-.087-1.14.087-.027v-3.04l-.078-.009.078-1.639V90.6l.056,0,.006-.1h2.811a5.7,5.7,0,0,1,2.922.8l.009-16.3a4.352,4.352,0,0,1,8.7,0s.012,5.733.019,10.6a4.252,4.252,0,0,1,4.945,1.709,4.249,4.249,0,0,1,5.523,1.255,5.617,5.617,0,0,1,2.163-.381,4.26,4.26,0,0,1,4.254,4.217l.141,2.939v13.129a8.912,8.912,0,0,1-3.042,6.739Z" transform="translate(-65.781 -46.175)" fill="#2e2e2d"/>
+                    <path id="Caminho_81" data-name="Caminho 81" d="M14.381,98.982l.033-.071,9.566.144c0,.068.011.132.009.2l-.025,1.592a4.778,4.778,0,0,1-4.854,4.7l-1.047-.033-1.479,4.44c3,2.216,5.036,6.446,5.036,11.3a15.065,15.065,0,0,1-3.116,9.452H10.145v-22.14Z" transform="translate(-6.63 -64.646)" fill="#fff"/>
+                    <path id="Caminho_82" data-name="Caminho 82" d="M16.471,129.4H5.986V105.517l4.793-10.808,11.855.179.068,1.349a3.061,3.061,0,0,1,.01.316l-.025,1.572a6.219,6.219,0,0,1-6.315,6.118l-.826,2.479a15.932,15.932,0,0,1,4.8,11.788A16.421,16.421,0,0,1,16.9,128.87Zm-7.6-2.883h6.2a13.993,13.993,0,0,0,2.389-8.01c0-4.231-1.7-8.117-4.45-10.141l-.843-.621,2.15-6.453,2.121.067A3.337,3.337,0,0,0,19.8,98.078l.006-.35-7.182-.108-3.759,8.505Z" transform="translate(-3.912 -61.899)" fill="#2e2e2d"/>
+                    <path id="Caminho_83" data-name="Caminho 83" d="M22.267,193.553v-7.57H0v7.57" transform="translate(0 -121.553)" fill="#18a6ac"/>
+                    <path id="Caminho_84" data-name="Caminho 84" d="M60.9,45.473H46.491V32.5H60.9ZM49.373,42.59h8.649V35.383H49.373Z" transform="translate(-30.385 -21.241)" fill="#2e2e2d"/>
+                    <rect id="Retângulo_48" data-name="Retângulo 48" width="21.922" height="2.883" transform="translate(15.925 27.115)" fill="#2e2e2d"/>
+                    <rect id="Retângulo_49" data-name="Retângulo 49" width="16.877" height="2.883" transform="translate(20.97 32.88)" fill="#2e2e2d"/>
+                    <rect id="Retângulo_50" data-name="Retângulo 50" width="16.877" height="2.883" transform="translate(20.97 38.646)" fill="#2e2e2d"/>
+                    <rect id="Retângulo_51" data-name="Retângulo 51" width="16.336" height="2.883" transform="translate(15.925 44.412)" fill="#2e2e2d"/>
+                  </g>
+                </svg>                
                 <h4>
-                  Lorem ipsum 
+                  Acesso exclusivo
                 </h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="text-start">Acompanhe as reuniões do Depto. de Psiquiatria da UNIFESP e fique por dentro das últimas discussões e pautas.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section id="professores" class="w-100 mt-5 bg-secondary mb-5">
+      <section id="professores" class="w-100 mt-5 mb-5">
         <div class="container p-2">
-          <div class="text-center container mb-5 p-4">
-            <h2>Professores do Curso</h2>
+          <div class="text-center d-flex flex-column align-items-center container mb-5 p-4">
+            <h2 class="text-white">Professores do Curso</h2><hr class="hr-linha-amarela">
           </div>
           <div class="row mx-auto d-flex mb-5 gy-5 ">
-            <div class="col-lg-6 col-md-12  d-flex icon">
-              <img src="imgs\Retângulo644.png" alt="prof1">
+            <div class="col-lg-6 col-md-12  d-flex icon text-white">
+                <img src="imgs\Retângulo644.png" alt="prof1" class="prof1">
               <div class="d-flex flex-column ms-3 text-start text-prof">
                 <h4>Elie Chenaux
                 </h4>
-                <p>Lorem ipsum</p>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nostrum quaerat dolore nobis nisi, hic facere officiis necessitatibus cum officia numquam eligendi nam dolorem reprehenderit deleniti. Quos perspiciatis mollitia quis.</P>
+                <p class="gray-text2 mb-3">Psiquiatra e Professor Universitário</p><hr class="hr-professores mb-4">
+                <P>Professor titular de psiquiatria da UERJ. Professor do Programa de Pós-Graduação em Ciências Médicas da FCM da UERJ; Professor permanente do Programa de Pós-Graduação em Psiquiatria e Saúde Mental (PROPSAM) IPUB-UFRJ; Psicanalista, formado pela SPRJ; e escritor.</P>
               </div>
             </div>
-            <div class="col-lg-6 col-md-12 d-flex icon">
+            <div class="col-lg-6 col-md-12 d-flex icon text-white">
               <img src="imgs\Retângulo645.png" alt="prof1">
               <div class="d-flex flex-column ms-3 text-start text-prof">
-                <h4>Elie Chenaux
+                <h4>Luiz Dieckmann
                 </h4>
-                <p>Lorem ipsum</p>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nostrum quaerat dolore nobis nisi, hic facere officiis necessitatibus cum officia numquam eligendi nam dolorem reprehenderit deleniti. Quos perspiciatis mollitia quis.</P>
+                <p class="gray-text2 mb-3">Médico Psiquiatra</p><hr class="hr-professores mb-4">
+                <P>Psiquiatra pela Universidade Federal de São Paulo (Unifesp), com Mestrado em Psicobiologia da mesma instituição. Atualmente é Diretor Presidente do Instituto Brasileiro de Farmacologia Prática (BIPP).</P>
               </div>
             </div>
-            <div class="col-lg-6 col-md-12  d-flex icon">
+            <div class="col-lg-6 col-md-12  d-flex icon text-white">
               <img src="imgs\Retângulo646.png" alt="prof1">
               <div class="d-flex flex-column ms-3 text-start text-prof">
-                <h4>Elie Chenaux
+                <h4>Eduardo Trachtenberg
                 </h4>
-                <p>Lorem ipsum</p>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nostrum quaerat dolore nobis nisi, hic facere officiis necessitatibus cum officia numquam eligendi nam dolorem reprehenderit deleniti. Quos perspiciatis mollitia quis.</P>
+                <p class="gray-text2 mb-3">Médico Psiquiatra</p><hr class="hr-professores mb-4">
+                <P>Medicina na UFRGS. Residência na HCPA. Professor de Psicofarmacologia nas Residências e Cursos de Psiquiatria do Hospital São Pedro, Mário Martins, Hospital Bruno Born.</P>
               </div>
             </div>
-            <div class="col-lg-6 col-md-12  d-flex icon">
+            <div class="col-lg-6 col-md-12  d-flex icon text-white">
               <img src="imgs\Retângulo647.png" alt="prof1">
               <div class="d-flex flex-column ms-3 text-start text-prof">
-                <h4>Elie Chenaux
+                <h4>Michel Haddad
                 </h4>
-                <p>Lorem ipsum</p>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nostrum quaerat dolore nobis nisi, hic facere officiis necessitatibus cum officia numquam eligendi nam dolorem reprehenderit deleniti. Quos perspiciatis mollitia quis.</P>
+                <p class="gray-text2 mb-3">Médico Psiquiatra</p><hr class="hr-professores mb-4">
+                <P>Psiquiatra pelo Instituto de Assistência Média ao Servidor Público Estadual de São Paulo (Iamspe). Mestrado em Psiquiatria pela Universidade Federal de São Paulo (Unifesp). Atualmente é diretor do Instituto Brasileiro de Farmacologia Prática (BIPP).</P>
               </div>
             </div>
           </div>
@@ -213,8 +313,8 @@
       </section>
       <section id="produto" class="w-100 mt-5">
         <div class="container p-2">
-          <div class="text-center container mb-5 p-4">
-            <h2>Produtos</h2>
+          <div class="text-center d-flex flex-column align-items-center container mb-5 p-4">
+            <h2>Nossos produtos</h2><hr class="hr-linha-amarela">
           </div>
           <div class="owl-carousel owl-theme d-flex align-items-center w-100">
             <div><img src="imgs/Logo BIPP Care.png" alt="logo"></div>
@@ -231,14 +331,14 @@
           </div>
         </div>
       </section> 
-      <footer class="bg-secondary w-100 mt-5 footer-h">
+      <footer class="w-100 mt-5 footer-h">
         <div class="container p-2">
           <div class="d-flex align-items-center justify-content-between flex-wrap">
             <div class="img-footer">
-              <img src="imgs/anpsi.png" alt="logo-rodape">
+              <img src="imgs/Grupo49.png" alt="logo-rodape">
             </div>
             <div class="row footer-m">
-              <div class="col-6 text">
+              <div class="col-6 text text-white">
                 <h6>Política de Privacidade</h6>
               </div>
               <div class="col-6">
